@@ -1,0 +1,166 @@
+div.info-container {
+  width: 100%;
+  overflow: auto;
+  padding: 22px 0px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-left: none;
+  border-right: none;
+}
+div.info-container h4 span {
+  color: #da10ff;
+  text-transform: capitalize;
+}
+.content {
+  min-height: 600px;
+}
+.content .row {
+  min-height: 455px;
+}
+.draw {
+  width: 100%;
+  overflow: auto;
+  position: relative;
+  height: 100%;
+}
+.base {
+  width: 64px;
+  background: #000;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 43%;
+}
+.column {
+  position: absolute;
+  width: 2px;
+  height: 43%;
+  background: #000;
+  left: 5%;
+}
+.hanger {
+  height: 2px;
+  width: 12%;
+  background-color: #000;
+  position: absolute;
+  left: 5%;
+  top: 4%;
+}
+.hanger2 {
+  height: 2px;
+  width: 2px;
+  height: 39px;
+  position: absolute;
+  background: #000;
+  left: 17%;
+  top: 4%;
+}
+.face {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  position: absolute;
+  left: 14%;
+  top: 10%;
+  /* padding: 8px; */
+  /* border: 1px solid #ddd;*/
+}
+.hanger3 {
+  width: 54px;
+  height: 53px;
+  border-radius: 50%;
+  border: 2px dotted #000;
+  position: absolute;
+  left: 13%;
+  top: 9%;
+}
+.body {
+  width: 2px;
+  height: 110px;
+  position: absolute;
+  top: 16%;
+  left: 18%;
+  background: #000;
+}
+.left-hand {
+  width: 43px;
+  height: 2px;
+  position: absolute;
+  top: 24%;
+  left: 10%;
+  background: rgb(0, 0, 0);
+  transform: rotate(207deg);
+}
+.right-hand {
+  position: absolute;
+  top: 17%;
+  right: 78%;
+  width: 2px;
+  height: 50px;
+  background: #000;
+  transform: rotate(42deg);
+}
+.left-leg {
+  width: 43px;
+  height: 2px;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  background: #000;
+  transform: rotate(160deg);
+}
+.right-leg {
+  height: 43px;
+  width: 2px;
+  position: absolute;
+  top: 33%;
+  right: 79%;
+  background: #000;
+  transform: rotate(137deg);
+}
+.alphephetc p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  width: calc(90% / 7);
+  background-color: #66ab43;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 1%;
+  padding: 5px 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.alphephetc {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.alphephetc p.active {
+  background-color: #ddd;
+}
+.clickdisabled {
+  pointer-events: none;
+}
+.spans {
+  padding: 45px;
+  border: 20px solid #fff;
+  justify-content: center;
+}
+.spans span {
+  width: calc(95% / 13);
+  display: inline-block;
+  font-size: 23px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  margin-right: 1%;
+}
+.alphephetc.disabled2 {
+  pointer-events: none;
+}
+.failing,
+.successing {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
